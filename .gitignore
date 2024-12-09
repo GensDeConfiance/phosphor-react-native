@@ -59,3 +59,5 @@ android/keystores/debug.keystore
 # ignore generated icon files
 src/*
 !src/lib/
+
+.yarn/
