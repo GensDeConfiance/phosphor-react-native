@@ -25,7 +25,7 @@ const options = {
 
 const svgsDir = path.join(
   __dirname,
-  '../node_modules/@phosphor-icons/core/assets'
+  '../node_modules/@gdc/phosphor-icons-core/assets'
 );
 
 const weights = {
