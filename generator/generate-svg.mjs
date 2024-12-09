@@ -23,7 +23,10 @@ const options = {
   plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
 };
 
-const svgsDir = path.join(__dirname, '../core/assets');
+const svgsDir = path.join(
+  __dirname,
+  '../node_modules/@gdc/phosphor-icons-core/assets'
+);
 
 const weights = {
   bold: 'bold',
