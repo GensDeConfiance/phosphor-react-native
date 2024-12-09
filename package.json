@@ -1,5 +1,5 @@
 {
-  "name": "phosphor-react-native",
+  "name": "@gdc/phosphor-react-native",
   "version": "2.2.3",
   "description": "Flexible icons for React Native",
   "main": "lib/commonjs/index.js",
@@ -25,7 +25,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/duongdev/phosphor-react-native",
+  "repository": "https://github.com/GensDeConfiance/phosphor-react-native",
   "author": "Dustin Do <dustin.do95@gmail.com> (https://github.com/duongdev)",
   "license": "MIT",
   "bugs": {
@@ -33,10 +33,10 @@
   },
   "homepage": "https://github.com/duongdev/phosphor-react-native#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://verdaccio.gensdeconfiance.com"
   },
   "dependencies": {
-    "@phosphor-icons/core": "^2.1.1"
+    "@gdc/phosphor-icons-core": "^2.1.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",
