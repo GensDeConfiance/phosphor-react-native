@@ -1361,26 +1361,11 @@
   resolved "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.4.tgz"
   integrity sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==
 
-<<<<<<< HEAD
-=======
-"@gdc/phosphor-icons-core@^2.1.1":
-  version "2.1.1"
-  resolved "https://verdaccio.gensdeconfiance.com/@gdc/phosphor-icons-core/-/phosphor-icons-core-2.1.1.tgz#e6c2974090edd9f7cca7a4ad03893dd4d1996e7d"
-  integrity sha512-H0bOXxPFXKSpGuS0W3MF+9Hffo0j+66p/zdKEVJs8os013dvBbzBII7uum4TzXZ77i+uSLfh6F5aLjI58Z2LhQ==
+"@gdc/phosphor-icons-core@^2.1.1-gdc.0":
+  version "2.1.1-gdc.0"
+  resolved "https://verdaccio.gensdeconfiance.com/@gdc/phosphor-icons-core/-/phosphor-icons-core-2.1.1-gdc.0.tgz#8d9813d6899b98c2f1dbc9c5cf4b25b180694c86"
+  integrity sha512-OSRtECH4O9o0izZwtVjOZSZFrmhebLP4giwHItrg2aVxXQFhb/pAmasNxN9k13ifMsmx9zk95MpsDBEYmbdFKA==
 
-"@hapi/hoek@^9.0.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
-  integrity sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==
-
-"@hapi/topo@^5.0.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@hapi/topo/-/topo-5.1.0.tgz#dc448e332c6c6e37a4dc02fd84ba8d44b9afb012"
-  integrity sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==
-  dependencies:
-    "@hapi/hoek" "^9.0.0"
-
->>>>>>> 7daabbe1 (build: update package.json)
 "@humanwhocodes/module-importer@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz"
@@ -1782,14 +1767,6 @@
   dependencies:
     "@octokit/openapi-types" "^22.2.0"
 
-<<<<<<< HEAD
-"@phosphor-icons/core@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@phosphor-icons/core/-/core-2.1.1.tgz"
-  integrity sha512-v4ARvrip4qBCImOE5rmPUylOEK4iiED9ZyKjcvzuezqMaiRASCHKcRIuvvxL/twvLpkfnEODCOJp5dM4eZilxQ==
-
-=======
->>>>>>> 7daabbe1 (build: update package.json)
 "@pkgr/core@^0.1.0":
   version "0.1.1"
   resolved "https://registry.npmjs.org/@pkgr/core/-/core-0.1.1.tgz"
