@@ -1,6 +1,6 @@
 {
   "name": "@gdc/phosphor-react-native",
-  "version": "2.2.3-gdc.0",
+  "version": "2.2.3-gdc.1",
   "description": "Flexible icons for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -36,7 +36,7 @@
     "registry": "https://verdaccio.gensdeconfiance.com"
   },
   "dependencies": {
-    "@gdc/phosphor-icons-core": "^2.1.1-gdc.0"
+    "@gdc/phosphor-icons-core": "2.1.1-gdc.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",

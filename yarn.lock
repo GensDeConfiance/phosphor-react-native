@@ -1361,10 +1361,10 @@
   resolved "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.4.tgz"
   integrity sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==
 
-"@gdc/phosphor-icons-core@^2.1.1-gdc.0":
-  version "2.1.1-gdc.0"
-  resolved "https://verdaccio.gensdeconfiance.com/@gdc/phosphor-icons-core/-/phosphor-icons-core-2.1.1-gdc.0.tgz#8d9813d6899b98c2f1dbc9c5cf4b25b180694c86"
-  integrity sha512-OSRtECH4O9o0izZwtVjOZSZFrmhebLP4giwHItrg2aVxXQFhb/pAmasNxN9k13ifMsmx9zk95MpsDBEYmbdFKA==
+"@gdc/phosphor-icons-core@2.1.1-gdc.1":
+  version "2.1.1-gdc.1"
+  resolved "https://verdaccio.gensdeconfiance.com/@gdc/phosphor-icons-core/-/phosphor-icons-core-2.1.1-gdc.1.tgz#a18d15c02d4b1b2858f8395b50e06ea5d5d47e1f"
+  integrity sha512-9XNGZuJjztkLbcDSKKUbZRioUFQoLOPvPxH931u2k3xhB9HzoJey2mjn/jjPd1aTHt8Jq/ucXDULIANJGcci8w==
 
 "@humanwhocodes/module-importer@^1.0.1":
   version "1.0.1"
