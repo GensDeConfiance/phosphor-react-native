@@ -1799,10 +1799,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gdc/phosphor-icons-core@npm:^2.1.1-gdc.1":
-  version: 2.1.1
-  resolution: "@gdc/phosphor-icons-core@npm:2.1.1"
-  checksum: ab9b97df7f54b6eaac20a2e50be9e5b4abf6794a3d6480eec241d887f4027607c71915944253e17983b24f65b45495466f32098b76dc56a06e7b5552541a865c
+"@gdc/phosphor-icons-core@npm:2.1.1-gdc.1":
+  version: 2.1.1-gdc.1
+  resolution: "@gdc/phosphor-icons-core@npm:2.1.1-gdc.1"
+  checksum: d06fdf3fb0961569c206be0add7eda9d949322c9b17da64e0d33fdb91f12bd06723472264ab4f5531fc06b14f3bde3ff7d40def8148f6c2ef2895553a1572aa1
   languageName: node
   linkType: hard
 
@@ -1813,7 +1813,7 @@ __metadata:
     "@commitlint/config-conventional": ^19.6.0
     "@eslint/eslintrc": ^3.2.0
     "@eslint/js": ^9.18.0
-    "@gdc/phosphor-icons-core": ^2.1.1-gdc.1
+    "@gdc/phosphor-icons-core": 2.1.1-gdc.1
     "@release-it/conventional-changelog": ^10.0.0
     "@svgr/babel-plugin-add-jsx-attribute": ^8.0.0
     "@svgr/core": ^8.1.0
