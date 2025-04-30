@@ -13,7 +13,7 @@ export type PaintFunction = (color: string) => React.ReactNode | null;
 
 export interface IconProps {
   color?: string;
-  size?: string | number;
+  size?: number;
   weight?: IconWeight;
   style?: StyleProp<ViewStyle>;
   mirrored?: boolean;
