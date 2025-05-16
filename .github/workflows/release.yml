@@ -28,7 +28,7 @@ jobs:
           echo "@gdc:registry=https://verdaccio.gensdeconfiance.com" >> .npmrc
           echo "//verdaccio.gensdeconfiance.com/:_authToken=${{ secrets.VERDACCIO_TOKEN }}" >> .npmrc
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn -v && yarn install --frozen-lockfile
       - name: Build - Generate
         run: yarn generate
       - name: Build - Prepare
