@@ -1,3 +1,4 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:phosphor-icons/core.git
+	url = https://github.com/GensDeConfiance/phosphor-icons-core
+	branch = main
