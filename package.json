@@ -1,6 +1,6 @@
 {
   "name": "@gdc/phosphor-react-native",
-  "version": "2.3.1-gdc.1",
+  "version": "2.3.1-gdc.2",
   "description": "Flexible icons for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",

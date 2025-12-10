@@ -44,7 +44,7 @@ const componentNameMap = {
 };
 
 // Some duotone colors do not have a color and opacity
-const duotoneEscape = ['cell-signal-none', 'wifi-none'];
+const duotoneEscape = ['cell-signal-none', 'wifi-none', 'tree-palm-alt'];
 
 const srcDir = path.join(__dirname, '../src');
 
