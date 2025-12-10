@@ -33,7 +33,7 @@ jobs:
         run: |
           corepack enable
           yarn -v
-          yarn install --production=false
+          yarn install
 
       - name: Run linter & formatter
         run: |
