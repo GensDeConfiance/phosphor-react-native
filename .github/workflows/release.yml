@@ -5,6 +5,9 @@ on:
 permissions:
   contents: read # for checkout
 
+env:
+  VERDACCIO_TOKEN: ${{ secrets.VERDACCIO_TOKEN }}
+
 jobs:
   release:
     name: Release
@@ -23,10 +26,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-      - name: Create .npmrc
-        run: |
-          echo "@gdc:registry=https://verdaccio.gensdeconfiance.com" >> .npmrc
-          echo "//verdaccio.gensdeconfiance.com/:_authToken=${{ secrets.VERDACCIO_TOKEN }}" >> .npmrc
       - name: Install dependencies
         run: |
           corepack enable
