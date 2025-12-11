@@ -1,4 +1,4 @@
-import { useContext, type ReactElement, type FC } from 'react';
+import React, { useContext, type ReactElement, type FC } from 'react';
 import Svg from 'react-native-svg';
 import { type IconProps, type IconWeight, IconContext } from '../lib';
 

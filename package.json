@@ -1,6 +1,6 @@
 {
   "name": "@gdc/phosphor-react-native",
-  "version": "2.3.1-gdc.4",
+  "version": "2.3.1-gdc.6",
   "description": "Flexible icons for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -17,7 +17,8 @@
     "lint": "eslint . --fix",
     "release": "release-it",
     "format": "prettier --write src/**/* src/lib/index.tsx",
-    "generate": "node generator/generate-svg.mjs"
+    "generate": "node generator/generate-svg.mjs",
+    "prepare": "husky && touch src/index.tsx && bob build"
   },
   "keywords": [
     "react-native",

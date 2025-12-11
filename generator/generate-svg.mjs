@@ -117,6 +117,7 @@ const generateAllIconsDefs = () => {
       `\
 /* GENERATED FILE */
 import type { ReactElement, FC } from 'react';
+import React from 'react';
 import { Path } from 'react-native-svg';
 import { type IconWeight } from '../lib';
 
@@ -144,7 +145,8 @@ const generateMainIconFile = (icon) => {
   const component = Case.pascal(icon);
   // const componentFileName = fileNameMap[component] || component;
   const componentName = componentNameMap[component] || component;
-  const componentCode = `import { type IconProps } from '@gdc/phosphor-react-native'
+  const componentCode = `import React from 'react'
+import { type IconProps } from '@gdc/phosphor-react-native'
 
 import IconBase from "../lib/icon-base";
 import weights from '../defs/${component}'
